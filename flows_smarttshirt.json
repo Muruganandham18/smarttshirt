@@ -1,0 +1,3132 @@
+[
+    {
+        "id": "86883d6d.252fc",
+        "type": "tab",
+        "label": "temperature and motion",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "13a4ddd1.5f0bc2",
+        "type": "tab",
+        "label": "telegram",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "24ba06c7.4798ca",
+        "type": "tab",
+        "label": "button",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b4fc3ee6.f7304",
+        "type": "tab",
+        "label": "CAMERA",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "51bdd7bf.fbeb38",
+        "type": "tab",
+        "label": "DATA BASE",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c1861cdc.0f24",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "83a19465.5b74e8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Health Monitoring",
+        "tab": "bf2bd6bf.cfc718",
+        "order": 1,
+        "disp": false,
+        "width": "9",
+        "collapse": false
+    },
+    {
+        "id": "bf2bd6bf.cfc718",
+        "type": "ui_tab",
+        "z": "",
+        "name": "SMART T SHIRT",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "ff33e40a.99f918",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Tahoma,Geneva,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#91b7e6",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#91b7e6",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#7dafe6",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#bcb6fa",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#aab7ec",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "SMART T SHIRT",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 2,
+                "gy": 2,
+                "cx": 2,
+                "cy": 3,
+                "px": 2,
+                "py": 1
+            }
+        }
+    },
+    {
+        "id": "b2359c2c.12d6c",
+        "type": "ui_group",
+        "z": "",
+        "name": "CPU DETAILS",
+        "tab": "a958a3d9.27c1e",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "a958a3d9.27c1e",
+        "type": "ui_tab",
+        "z": "",
+        "name": "CPU",
+        "icon": "data_usage",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9ea2cbb5.0afbb8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Graph",
+        "tab": "2aada5ec.3d06da",
+        "order": 2,
+        "disp": false,
+        "width": "17",
+        "collapse": false
+    },
+    {
+        "id": "2aada5ec.3d06da",
+        "type": "ui_tab",
+        "z": "",
+        "name": "GRAPHS",
+        "icon": "multiline_chart",
+        "order": 3
+    },
+    {
+        "id": "bb4ed93f.1600d8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Buttons",
+        "tab": "bf2bd6bf.cfc718",
+        "order": 4,
+        "disp": true,
+        "width": "2",
+        "collapse": false
+    },
+    {
+        "id": "de764c71.b5be5",
+        "type": "ui_group",
+        "z": "",
+        "name": "CAMERA FEED",
+        "tab": "59ea38a4.1e16f8",
+        "disp": true,
+        "width": "15",
+        "collapse": false
+    },
+    {
+        "id": "59ea38a4.1e16f8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "CAMERA",
+        "icon": "camera",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "74dec43d.3a93ec",
+        "type": "ui_group",
+        "z": "",
+        "name": "BPM",
+        "tab": "bf2bd6bf.cfc718",
+        "order": 3,
+        "disp": false,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "e7dc6c0c.5a1f8",
+        "type": "MySQLdatabase",
+        "z": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "smarttshirt",
+        "tz": ""
+    },
+    {
+        "id": "497dcc93.5762a4",
+        "type": "ui_group",
+        "z": "",
+        "name": "TOPICS",
+        "tab": "b39b943c.9935d8",
+        "order": 1,
+        "disp": false,
+        "width": "22",
+        "collapse": false
+    },
+    {
+        "id": "b39b943c.9935d8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "SMART T SHIRT",
+        "icon": "dashboard",
+        "order": 5
+    },
+    {
+        "id": "c92d978b.27baf8",
+        "type": "ui_group",
+        "z": "",
+        "name": "DATA BASE",
+        "tab": "bfb14de4.715b4",
+        "order": 1,
+        "disp": true,
+        "width": "17",
+        "collapse": false
+    },
+    {
+        "id": "5bd84675.e7ffa8",
+        "type": "MySQLdatabase",
+        "z": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "smarttshirt",
+        "tz": ""
+    },
+    {
+        "id": "bfb14de4.715b4",
+        "type": "ui_tab",
+        "z": "",
+        "name": "DATA BASE",
+        "icon": "history",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c01e1d73.d3691",
+        "type": "ui_group",
+        "z": "",
+        "name": "step data",
+        "tab": "bf2bd6bf.cfc718",
+        "order": 2,
+        "disp": false,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "199a8581.0699ba",
+        "type": "telegram bot",
+        "z": "",
+        "botname": "SMART-T-SHIRT",
+        "usernames": "",
+        "chatids": "110663594,",
+        "baseapiurl": "https://api.telegram.org",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "bothost": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "verboselogging": true
+    },
+    {
+        "id": "bd812988.48bc78",
+        "type": "ui_group",
+        "z": "",
+        "name": "Description",
+        "tab": "bf2bd6bf.cfc718",
+        "order": 5,
+        "disp": false,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "d50a0086.c2b34",
+        "type": "ui_group",
+        "z": "",
+        "name": "time",
+        "tab": "bf2bd6bf.cfc718",
+        "order": 6,
+        "disp": false,
+        "width": "1",
+        "collapse": false
+    },
+    {
+        "id": "d62b12ea.a8dd3",
+        "type": "ui_group",
+        "z": "",
+        "name": "WEBCHECK",
+        "tab": "",
+        "disp": false,
+        "width": "13",
+        "collapse": false
+    },
+    {
+        "id": "93661c33.ccfeb",
+        "type": "ui_tab",
+        "z": "",
+        "name": "SETTINGS",
+        "icon": "settings",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "78ac4f81.739f3",
+        "type": "ui_group",
+        "z": "",
+        "name": "WIFI",
+        "tab": "93661c33.ccfeb",
+        "disp": false,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "3c896285.f3cc7e",
+        "type": "ui_group",
+        "z": "",
+        "name": "SYSTEM",
+        "tab": "93661c33.ccfeb",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "250cb833.e8bc48",
+        "type": "inject",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "46d53dcf.31b154",
+                "e63cccf8.51a2",
+                "4673dd02.af7694"
+            ]
+        ]
+    },
+    {
+        "id": "e63cccf8.51a2",
+        "type": "file in",
+        "z": "86883d6d.252fc",
+        "name": "temp data",
+        "filename": "/home/pi/smarttshirt/temp.txt",
+        "format": "lines",
+        "chunk": false,
+        "sendError": false,
+        "x": 160,
+        "y": 120,
+        "wires": [
+            [
+                "1871ddb7.6b1fd2"
+            ]
+        ]
+    },
+    {
+        "id": "1871ddb7.6b1fd2",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "temperature and humidity",
+        "func": "var s=msg.payload;\nvar sp=s.split(\",\");\nmsg.payload={obj:sp};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "8e629ee.4da8d6",
+                "6aa2b2f4.fffb0c"
+            ]
+        ]
+    },
+    {
+        "id": "8e629ee.4da8d6",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "Cel",
+        "func": "msg.payload=msg.payload.obj[0]\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 60,
+        "wires": [
+            [
+                "d74ffd6a.3f5e9",
+                "1d10c153.22d93f",
+                "fd071a94.86d228",
+                "d28fb80.ef54048"
+            ]
+        ]
+    },
+    {
+        "id": "6aa2b2f4.fffb0c",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "Far",
+        "func": "msg.payload=msg.payload.obj[1]\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 180,
+        "wires": [
+            [
+                "256e9026.826ff",
+                "32cddd0f.fe4e72"
+            ]
+        ]
+    },
+    {
+        "id": "d74ffd6a.3f5e9",
+        "type": "ui_gauge",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "order": 6,
+        "width": "4",
+        "height": "3",
+        "gtype": "gage",
+        "title": "celsius",
+        "label": "c",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#48ee4d",
+            "#23cb1b",
+            "#ff0209"
+        ],
+        "seg1": "36",
+        "seg2": "45",
+        "x": 570,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "46d53dcf.31b154",
+        "type": "pythonshell in",
+        "z": "86883d6d.252fc",
+        "name": "temperature",
+        "pyfile": "/home/pi/smarttshirt/ds18b20.py",
+        "virtualenv": "",
+        "continuous": true,
+        "stdInData": true,
+        "x": 170,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9da80516.15b778",
+        "type": "inject",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "4518b2f2.2e634c"
+            ]
+        ]
+    },
+    {
+        "id": "4518b2f2.2e634c",
+        "type": "file in",
+        "z": "86883d6d.252fc",
+        "name": "CURRENT ACTIVITY",
+        "filename": "/home/pi/smarttshirt/state.txt",
+        "format": "lines",
+        "chunk": false,
+        "sendError": false,
+        "x": 300,
+        "y": 240,
+        "wires": [
+            [
+                "a113215e.3bf75"
+            ]
+        ]
+    },
+    {
+        "id": "defe18ef.4df208",
+        "type": "ui_text",
+        "z": "86883d6d.252fc",
+        "group": "83a19465.5b74e8",
+        "order": 4,
+        "width": "8",
+        "height": "1",
+        "name": "",
+        "label": "CURRENT ACTIVITY",
+        "format": "{{msg.payload.obj[0]}}",
+        "layout": "row-spread",
+        "x": 740,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a8aab7c2.590368",
+        "type": "cpu",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "msgCore": true,
+        "msgOverall": true,
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "a3cd4c9a.5c377",
+                "56630aa9.f3ff34"
+            ]
+        ]
+    },
+    {
+        "id": "d7b18109.31dd5",
+        "type": "inject",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "3",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "a8aab7c2.590368"
+            ]
+        ]
+    },
+    {
+        "id": "68208c73.90ff74",
+        "type": "ui_gauge",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "group": "b2359c2c.12d6c",
+        "order": 1,
+        "width": "5",
+        "height": "4",
+        "gtype": "donut",
+        "title": "CPU Frequency",
+        "label": "MHZ",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1300",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 380,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a3cd4c9a.5c377",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "overall slpit",
+        "func": "var topic=msg.topic;\nif (topic==\"overall\"){\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 320,
+        "wires": [
+            [
+                "72359374.3e36ec"
+            ]
+        ]
+    },
+    {
+        "id": "72359374.3e36ec",
+        "type": "ui_gauge",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "group": "b2359c2c.12d6c",
+        "order": 2,
+        "width": "5",
+        "height": "4",
+        "gtype": "compass",
+        "title": "CPU Load",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 650,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "1d10c153.22d93f",
+        "type": "ui_chart",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "group": "9ea2cbb5.0afbb8",
+        "order": 0,
+        "width": "16",
+        "height": "5",
+        "label": "celsius",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss ",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "20",
+        "ymax": "100",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": true,
+        "x": 530,
+        "y": 20,
+        "wires": [
+            [
+                "91931823.7472c8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "256e9026.826ff",
+        "type": "ui_chart",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "group": "9ea2cbb5.0afbb8",
+        "order": 0,
+        "width": "16",
+        "height": "5",
+        "label": "Fahrenheit",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "50",
+        "ymax": "180",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 730,
+        "y": 180,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8153ab36.ac39e8",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "sendfuntion",
+        "func": "msg.payload={\nchatId: 110663594,\ntype:'message',\ncontent:'temprature is\\nC='+msg.payload.obj[0]+'\\nF='+msg.payload.obj[1]};\nreturn msg ;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 630,
+        "y": 120,
+        "wires": [
+            [
+                "e31faa03.7aadc8",
+                "ea108bd8.504308"
+            ]
+        ]
+    },
+    {
+        "id": "7d815c9.49a86a4",
+        "type": "file in",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "temp data",
+        "filename": "/home/pi/smarttshirt/temp.txt",
+        "format": "lines",
+        "chunk": false,
+        "sendError": false,
+        "x": 340,
+        "y": 120,
+        "wires": [
+            [
+                "8a1b604.a2bf0a"
+            ]
+        ]
+    },
+    {
+        "id": "eac1711.412939",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "func": "if(msg.payload.content===\"\"){\n    var d = new Date();\n    msg.payload= d.getDay(); \n    return msg;\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "7d815c9.49a86a4",
+                "ea108bd8.504308",
+                "31d1c442.2b592c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8a1b604.a2bf0a",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "func": "var s=msg.payload;\nvar sp=s.split(\",\");\nmsg.payload={obj:sp};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 120,
+        "wires": [
+            [
+                "8153ab36.ac39e8"
+            ]
+        ]
+    },
+    {
+        "id": "ea108bd8.504308",
+        "type": "debug",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 610,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e31faa03.7aadc8",
+        "type": "telegram sender",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "bot": "199a8581.0699ba",
+        "x": 650,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98fcb6b9.607498",
+        "type": "telegram receiver",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "bot": "199a8581.0699ba",
+        "saveDataDir": "",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [],
+            [
+                "e8ebbeaf.2837f"
+            ]
+        ]
+    },
+    {
+        "id": "e8ebbeaf.2837f",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "sendfuntion",
+        "func": "msg.payload={\nchatId:msg.payload.chatId,\ntype:'message',\ncontent:'Please Enter The ID in Settings of Your T shirt\\nYour Chat Id is:'+msg.payload.chatId+'\\nIn case Of Technical Issues Contact @Muruganandham1998'}\nreturn msg ;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "ea108bd8.504308",
+                "e31faa03.7aadc8"
+            ]
+        ]
+    },
+    {
+        "id": "f994e713.0e1978",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "sendfuntion",
+        "func": "msg.payload={\nchatId: 110663594,\ntype:'message',\ncontent:'ACTIVITY='+msg.payload.obj[0]+'\\n STEPS='+msg.payload.obj[1]+'\\n Distance Walked='+msg.payload.obj[3]+'\\n CALORIES Burned='+msg.payload.obj[2]};\nreturn msg ;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 530,
+        "y": 60,
+        "wires": [
+            [
+                "72591933.f70ac8"
+            ]
+        ]
+    },
+    {
+        "id": "31d1c442.2b592c",
+        "type": "file in",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "STATE data",
+        "filename": "/home/pi/smarttshirt/state.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 170,
+        "y": 60,
+        "wires": [
+            [
+                "f49df787.6d91d8"
+            ]
+        ]
+    },
+    {
+        "id": "72591933.f70ac8",
+        "type": "delay",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 700,
+        "y": 60,
+        "wires": [
+            [
+                "e31faa03.7aadc8"
+            ]
+        ]
+    },
+    {
+        "id": "56630aa9.f3ff34",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "frequency",
+        "func": "msg.payload=msg.speed\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 220,
+        "y": 420,
+        "wires": [
+            [
+                "68208c73.90ff74"
+            ]
+        ]
+    },
+    {
+        "id": "62a30f62.92fd1",
+        "type": "telegram command",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "command": "/status",
+        "bot": "199a8581.0699ba",
+        "strict": false,
+        "x": 70,
+        "y": 140,
+        "wires": [
+            [
+                "eac1711.412939"
+            ],
+            [
+                "ea108bd8.504308"
+            ]
+        ]
+    },
+    {
+        "id": "32cddd0f.fe4e72",
+        "type": "ui_gauge",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "order": 7,
+        "width": "4",
+        "height": "3",
+        "gtype": "gage",
+        "title": "Fahrenheit",
+        "label": "c",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#4d4dea",
+            "#23cb1b",
+            "#ff0209"
+        ],
+        "seg1": "90",
+        "seg2": "120",
+        "x": 510,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "7ec1412e.b5a95",
+        "type": "ui_text",
+        "z": "86883d6d.252fc",
+        "group": "83a19465.5b74e8",
+        "order": 5,
+        "width": "8",
+        "height": "1",
+        "name": "",
+        "label": "Health Condition",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 780,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "fd071a94.86d228",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "Cel",
+        "func": "var s=msg.payload\nif (s>50 && s<70){\nmsg.payload=\"High Temperature\";}\nif (s<20  && s>10){\nmsg.payload=\"Low Temperature\";}\nif (s>90){\nmsg.payload=\"High Temperature\";}\nif (s<10){\nmsg.payload=\"Too Low Temperature\";}\nelse{msg.payload=\"Normal\"}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 610,
+        "y": 120,
+        "wires": [
+            [
+                "7ec1412e.b5a95"
+            ]
+        ]
+    },
+    {
+        "id": "23196019.6d008",
+        "type": "ui_ui_control",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "x": 360,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "284814cf.d6998c",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Settings",
+        "tooltip": "To Setup Your Smart T Shirt",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "SETTINGS",
+        "payloadType": "str",
+        "topic": "tab",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "23196019.6d008"
+            ]
+        ]
+    },
+    {
+        "id": "3876ce28.f241d2",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "HOME",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "SMART T SHIRT",
+        "payloadType": "str",
+        "topic": "tab",
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "23196019.6d008"
+            ]
+        ]
+    },
+    {
+        "id": "4f47cd30.847ce4",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "CPU Usage",
+        "tooltip": "Shows the CPU information",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "CPU",
+        "payloadType": "str",
+        "topic": "tab",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "23196019.6d008"
+            ]
+        ]
+    },
+    {
+        "id": "3de6164e.e0430a",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "b2359c2c.12d6c",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "HOME",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "SMART T SHIRT",
+        "payloadType": "str",
+        "topic": "tab",
+        "x": 90,
+        "y": 220,
+        "wires": [
+            [
+                "23196019.6d008"
+            ]
+        ]
+    },
+    {
+        "id": "fa4bd82e.ca3cb8",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "9ea2cbb5.0afbb8",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "HOME",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "SMART T SHIRT",
+        "payloadType": "str",
+        "topic": "tab",
+        "x": 90,
+        "y": 260,
+        "wires": [
+            [
+                "23196019.6d008"
+            ]
+        ]
+    },
+    {
+        "id": "a2582739.8eb758",
+        "type": "ui_template",
+        "z": "b4fc3ee6.f7304",
+        "group": "de764c71.b5be5",
+        "name": "",
+        "order": 4,
+        "width": "9",
+        "height": "9",
+        "format": "<style>\n.image\n\t{\n\t\tposition: relative;\n\t\ttop: 0;\n\t\tleft: 0;\n\t}\n.images\n\t{\n\t\tposition: absolute;\n\t\ttop: 0px;\n\t\tleft: 0px;\n\t}\n\nimg {\nfont-family: \"Arial, Helvetica, sans-serif;;\nfont-size: 40px;\nletter-spacing: 0px;\nword-spacing: 2px;\ncolor: #000000;\nfont-weight: normal;\ntext-decoration: none;\nfont-style: normal;\nfont-variant: small-caps;\ntext-transform: none;\n\n\n    \n    width: 390px;\n    height: 390px;\n    display: inline-block;\n    vertical-align: text-bottom;\n}\n    img::before {\n        content: 'Hit Live Feed ';\n        position: absolute;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        line-height: 450px;\n        color: currentColor;\n        text-align: center;\n        border-radius: 2px;\n        display: block;\n        width: 320px;\n        height: 320px;\n        overflow: hidden;\n    }\nimg {\n  position: relative;\n  /*-webkit-animation-name: example; \n  -webkit-animation-duration: 1s; */\n  animation-name: example;\n  animation-duration: 1s;\n  border: 3px solid #1C6EA4;\n \n}\n/* Standard syntax */\n@keyframes example {\n   50%  {left:100px; top:0px;}\n  100% {left:0px; top:0px;}\n}\ninput[type=button] {\n  width:390px;\n  height:40px;\n  background-color: rgba(206,89,55,0.91);\n  border:20px;\n  solid rgba(206,89,55,0.91);\n  padding: 0px;\n\n}\n</style>\n<INPUT TYPE=\"button\" onClick=\"history.go(0)\" VALUE=\"Live Feed\" >\n    <div style=\"position: relative; left: 0; top: 0;\">\n    <img id=\"overlay\" src='https://smarttshirtvideo.serveo.net/stream.mjpg' height=\"350\" width=\"400\" class=\"image\" >\n    <img id=\"overlay\" src='http://{{msg.payload.obj[0]}}:8080/stream.mjpg' height=\"350\" width=\"400\" class=\"images\" >\n    </div>\n    \n    \n\n<div></div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 740,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "81a343eb.517d7",
+        "type": "ui_button",
+        "z": "b4fc3ee6.f7304",
+        "name": "",
+        "group": "de764c71.b5be5",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "TURN ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "tag",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "c60eb0b5.98656",
+                "cc6f6ab9.f7b128"
+            ]
+        ]
+    },
+    {
+        "id": "c60eb0b5.98656",
+        "type": "pythonshell in",
+        "z": "b4fc3ee6.f7304",
+        "name": "live feed on",
+        "pyfile": "/home/pi/smarttshirt/videop2.py",
+        "virtualenv": "",
+        "continuous": false,
+        "stdInData": false,
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "cc6f6ab9.f7b128"
+            ]
+        ]
+    },
+    {
+        "id": "e14df3cb.f43bc",
+        "type": "pythonshell in",
+        "z": "b4fc3ee6.f7304",
+        "name": "live feed off",
+        "pyfile": "/home/pi/smarttshirt/stopvideo.py",
+        "virtualenv": "",
+        "continuous": true,
+        "stdInData": false,
+        "x": 350,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ce06a28.9f8f46",
+        "type": "ui_button",
+        "z": "b4fc3ee6.f7304",
+        "name": "",
+        "group": "de764c71.b5be5",
+        "order": 3,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Turn Off",
+        "tooltip": "To turn off the camera",
+        "color": "",
+        "bgcolor": "red",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 100,
+        "y": 240,
+        "wires": [
+            [
+                "e14df3cb.f43bc",
+                "cc6f6ab9.f7b128"
+            ]
+        ]
+    },
+    {
+        "id": "ef500476.61d118",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "Survilance",
+        "tooltip": "To See The live Stream",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "CAMERA",
+        "payloadType": "str",
+        "topic": "tab",
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "23196019.6d008"
+            ]
+        ]
+    },
+    {
+        "id": "123ad391.be0f4c",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "de764c71.b5be5",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "HOME",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "SMART T SHIRT",
+        "payloadType": "str",
+        "topic": "tab",
+        "x": 90,
+        "y": 300,
+        "wires": [
+            [
+                "23196019.6d008"
+            ]
+        ]
+    },
+    {
+        "id": "c71e8c2a.61d17",
+        "type": "inject",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "topic": "santosh",
+        "payload": "",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 520,
+        "y": 480,
+        "wires": [
+            [
+                "be49bad4.da6558"
+            ]
+        ]
+    },
+    {
+        "id": "be49bad4.da6558",
+        "type": "ui_audio",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "voice": "en-US",
+        "always": false,
+        "x": 700,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b5489a8e.849cc8",
+        "type": "exec",
+        "z": "24ba06c7.4798ca",
+        "command": "sudo reboot",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 730,
+        "y": 380,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "61812f53.f9a68",
+        "type": "ui_template",
+        "z": "86883d6d.252fc",
+        "group": "74dec43d.3a93ec",
+        "name": "heart beat icon",
+        "order": 1,
+        "width": "3",
+        "height": "3",
+        "format": "\n<div><img src='/images/FocusedCompetentEyas-size_restricted-copy.gif' height=\"100\" width=\"130\" ></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 840,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d773172.c9efc",
+        "type": "ui_text",
+        "z": "86883d6d.252fc",
+        "group": "74dec43d.3a93ec",
+        "order": 2,
+        "width": "1",
+        "height": "2",
+        "name": "",
+        "label": "BPM",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 870,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "92e40766.7becd8",
+        "type": "mysql",
+        "z": "51bdd7bf.fbeb38",
+        "mydb": "e7dc6c0c.5a1f8",
+        "name": "MAIN DATA BASE",
+        "x": 930,
+        "y": 160,
+        "wires": [
+            [
+                "77c71ab5.4c1c64"
+            ]
+        ]
+    },
+    {
+        "id": "238233b3.a4aa4c",
+        "type": "split",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "splt": "1",
+        "spltType": "len",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 590,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42aeb5a6.2c059c",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values",
+        "func": "msg.payload=msg.payload[0].values\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 560,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f08481c.daf4c8",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "Insert in mySQL",
+        "func": "var s=msg.payload;\nif (s!==null){\nvar xaxis=msg.payload[0]\nmsg.topic=\"INSERT INTO health (temperature,stamp,time) VALUES ('\"+msg.payload[1]+\"','\"+xaxis+\"',NOW());\";\nreturn msg;\n}\nelse{\n    return null\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 980,
+        "y": 60,
+        "wires": [
+            [
+                "92e40766.7becd8"
+            ]
+        ]
+    },
+    {
+        "id": "77c71ab5.4c1c64",
+        "type": "debug",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 890,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "eb2e9f63.74559",
+        "type": "debug",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 890,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "35888f41.c750e",
+        "type": "delay",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 230,
+        "y": 60,
+        "wires": [
+            [
+                "cf50f8dc.535f58"
+            ]
+        ]
+    },
+    {
+        "id": "91931823.7472c8",
+        "type": "link out",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "links": [
+            "be1aae27.285ed"
+        ],
+        "x": 875,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "be1aae27.285ed",
+        "type": "link in",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "links": [
+            "91931823.7472c8"
+        ],
+        "x": 95,
+        "y": 60,
+        "wires": [
+            [
+                "35888f41.c750e"
+            ]
+        ]
+    },
+    {
+        "id": "cf50f8dc.535f58",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values",
+        "func": "msg.payload=msg.payload[0].values\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 440,
+        "y": 60,
+        "wires": [
+            [
+                "492282df.8ebf8c"
+            ]
+        ]
+    },
+    {
+        "id": "492282df.8ebf8c",
+        "type": "split",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "splt": "1",
+        "spltType": "len",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 610,
+        "y": 60,
+        "wires": [
+            [
+                "ec57ece4.ef62"
+            ]
+        ]
+    },
+    {
+        "id": "ec57ece4.ef62",
+        "type": "delay",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 750,
+        "y": 60,
+        "wires": [
+            [
+                "6f08481c.daf4c8"
+            ]
+        ]
+    },
+    {
+        "id": "de81a6ee.a3a7e8",
+        "type": "ui_form",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "label": "",
+        "group": "c92d978b.27baf8",
+        "order": 1,
+        "width": "6",
+        "height": "9",
+        "options": [
+            {
+                "label": "From(YYY-MM-DD)",
+                "value": "fromdate",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Time(hh:mm:ss)",
+                "value": "fromtime",
+                "type": "text",
+                "required": false
+            },
+            {
+                "label": "To(YYY-MM-DD)",
+                "value": "todate",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Time(hh:mm:ss)",
+                "value": "totime",
+                "type": "text",
+                "required": false
+            }
+        ],
+        "formValue": {
+            "fromdate": "",
+            "fromtime": "",
+            "todate": "",
+            "totime": ""
+        },
+        "payload": "",
+        "submit": "GET DATA",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 70,
+        "y": 420,
+        "wires": [
+            [
+                "3032d4a2.d3eb2c"
+            ]
+        ]
+    },
+    {
+        "id": "3032d4a2.d3eb2c",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "split",
+        "func": "var s=msg.payload;\nvar d=msg.payload.fromdate;\nvar t=msg.payload.fromtime;\nvar dt=msg.payload.todate;\nvar tt=msg.payload.totime;\nmsg.payload={fromdate:d,fromtime:t,todate:dt,totime:tt};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 250,
+        "y": 420,
+        "wires": [
+            [
+                "68c3d5dd.ed07fc"
+            ]
+        ]
+    },
+    {
+        "id": "ecacc204.52e17",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "data get",
+        "func": "msg.topic=\"SELECT * FROM health WHERE stamp BETWEEN \"+msg.payload.from+\" and \"+msg.payload.to+\";\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 520,
+        "y": 420,
+        "wires": [
+            [
+                "dd745c03.f6d54"
+            ]
+        ]
+    },
+    {
+        "id": "dd745c03.f6d54",
+        "type": "mysql",
+        "z": "51bdd7bf.fbeb38",
+        "mydb": "5bd84675.e7ffa8",
+        "name": "",
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "e74f59ad.486f88"
+            ]
+        ]
+    },
+    {
+        "id": "e74f59ad.486f88",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values ",
+        "func": "var length=msg.payload.length;\nvar values = new Array(length);\nfor (var i = 0; i <values.length; i++) {\n  values[i] = new Array(2);\n}\nfor (var j=0;j<msg.payload.length;j++){\nvalues[j][0]=msg.payload[j].stamp\nvalues[j][1]=msg.payload[j].temperature\n}\nmsg.payload=[{\"key\":\"\",\"values\":values}]\nmsg.topic='Temperature'\n// msg.payload=msg.payload[0].xaxis\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 840,
+        "y": 420,
+        "wires": [
+            [
+                "eb2e9f63.74559",
+                "61262ab6.d93e44"
+            ]
+        ]
+    },
+    {
+        "id": "61262ab6.d93e44",
+        "type": "ui_chart",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "group": "c92d978b.27baf8",
+        "order": 2,
+        "width": "10",
+        "height": "6",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "604800",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": true,
+        "x": 1070,
+        "y": 420,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "68c3d5dd.ed07fc",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "func": "var myDate = new Date(msg.payload.fromdate+\" \"+msg.payload.fromtime); // Your timezone!\nvar timestamp= myDate.getTime();\nvar myDate2 = new Date(msg.payload.todate+\" \"+msg.payload.totime); // Your timezone!\nvar timestamp2= myDate2.getTime();\nmsg.payload={from:timestamp+19080000,to:timestamp2+19080000}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 420,
+        "wires": [
+            [
+                "ecacc204.52e17",
+                "b346fbf8.50b428",
+                "35d0158c.1f52aa"
+            ]
+        ]
+    },
+    {
+        "id": "4673dd02.af7694",
+        "type": "file in",
+        "z": "86883d6d.252fc",
+        "name": "heart beat",
+        "filename": "/home/pi/smarttshirt/bpm.txt",
+        "format": "lines",
+        "chunk": false,
+        "sendError": false,
+        "x": 680,
+        "y": 480,
+        "wires": [
+            [
+                "6d773172.c9efc",
+                "27620cf.926c5f4"
+            ]
+        ]
+    },
+    {
+        "id": "5435de16.9dcc4",
+        "type": "inject",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "x": 110,
+        "y": 580,
+        "wires": [
+            [
+                "c1ea93dd.d3067"
+            ]
+        ]
+    },
+    {
+        "id": "c1ea93dd.d3067",
+        "type": "pythonshell in",
+        "z": "86883d6d.252fc",
+        "name": "hr",
+        "pyfile": "/home/pi/smarttshirt/hr.py",
+        "virtualenv": "",
+        "continuous": true,
+        "stdInData": false,
+        "x": 290,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "999548e7.9fe4f8",
+        "type": "ui_template",
+        "z": "86883d6d.252fc",
+        "group": "c01e1d73.d3691",
+        "name": "STEPS",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "format": "<style>\n\n}\ncenter{padding: 10px ;\n  text-align: center};\n \n}\n</style>\n<p>\n<div layout=\"row\" layout-align=\"space-between\">\n<div class=\"center\"><img src='/images/the_number_of_steps_293525.png' height=\"40\" width=\"40\" >\n<b><sup>STEPS</sup></b><p style=\"text-align: center\">{{msg.payload.obj[1]}}</p></div>\n<div class=\"center\"><img src='/images/1180285-200.png' height=\"40\" width=\"40\" >\n<b><sup>CALORIES</sup></b><p style=\"text-align: center\">{{msg.payload.obj[2]}}</p></div>\n\n<p></p>\n<div class=\"center\"><img src='/images/thin-0545_map_travel_distance_directions-512.png' height=\"40\" width=\"40\" >\n<b><sup>Distance</sup></b><p style=\"text-align: center\">{{msg.payload.obj[3]}}</p></div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 660,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a113215e.3bf75",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "activity and step",
+        "func": "var s=msg.payload;\nvar sp=s.split(\",\");\nmsg.payload={obj:sp};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 500,
+        "y": 240,
+        "wires": [
+            [
+                "defe18ef.4df208",
+                "999548e7.9fe4f8",
+                "4df2ffbb.d87f2"
+            ]
+        ]
+    },
+    {
+        "id": "f49df787.6d91d8",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "activity and step",
+        "func": "var s=msg.payload;\nvar sp=s.split(\",\");\nmsg.payload={obj:sp};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "f994e713.0e1978"
+            ]
+        ]
+    },
+    {
+        "id": "cc6f6ab9.f7b128",
+        "type": "exec",
+        "z": "b4fc3ee6.f7304",
+        "command": "hostname -I",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "18915352.6a6c6d"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "18915352.6a6c6d",
+        "type": "function",
+        "z": "b4fc3ee6.f7304",
+        "name": "PID",
+        "func": "var s=msg.payload;\nvar sp=s.split(\" \");\nmsg.payload={obj:sp};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 490,
+        "y": 60,
+        "wires": [
+            [
+                "a2582739.8eb758"
+            ]
+        ]
+    },
+    {
+        "id": "d28fb80.ef54048",
+        "type": "link out",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "links": [
+            "d3b518a5.3d7338"
+        ],
+        "x": 695,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "365ad6f1.39a57a",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "ALERT",
+        "func": "temp=msg.payload\nif (temp>50){\nmsg.payload={\nchatId: 110663594,\ntype:'message',\ncontent:'ALERT !!\\nTemprature is HIGH  ='+temp};\nreturn msg ;}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "e31faa03.7aadc8",
+                "8294b138.8970a"
+            ]
+        ]
+    },
+    {
+        "id": "7bef99cf.1b4a58",
+        "type": "inject",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "topic": "",
+        "payload": "55",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 90,
+        "y": 360,
+        "wires": [
+            [
+                "365ad6f1.39a57a"
+            ]
+        ]
+    },
+    {
+        "id": "d3b518a5.3d7338",
+        "type": "link in",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "links": [
+            "d28fb80.ef54048"
+        ],
+        "x": 95,
+        "y": 420,
+        "wires": [
+            [
+                "365ad6f1.39a57a"
+            ]
+        ]
+    },
+    {
+        "id": "4fc47a37.831c14",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "ALERT",
+        "func": "temp=msg.payload.obj[4]\nif (temp=='fell'){\nmsg.payload={\nchatId: 110663594,\ntype:'message',\ncontent:'ALERT !!The Child Fell Down \\nAccident Sequence detected'};\nreturn msg ;}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 240,
+        "y": 480,
+        "wires": [
+            [
+                "5aafaf2b.cdaf8"
+            ]
+        ]
+    },
+    {
+        "id": "5aafaf2b.cdaf8",
+        "type": "delay",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "16",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 420,
+        "y": 480,
+        "wires": [
+            [
+                "e31faa03.7aadc8"
+            ]
+        ]
+    },
+    {
+        "id": "4df2ffbb.d87f2",
+        "type": "link out",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "links": [
+            "de336ce5.92bbf"
+        ],
+        "x": 855,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "de336ce5.92bbf",
+        "type": "link in",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "fall",
+        "links": [
+            "4df2ffbb.d87f2"
+        ],
+        "x": 95,
+        "y": 460,
+        "wires": [
+            [
+                "4fc47a37.831c14"
+            ]
+        ]
+    },
+    {
+        "id": "f2e0e973.e79498",
+        "type": "inject",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "30",
+        "x": 110,
+        "y": 640,
+        "wires": [
+            [
+                "f87dd36e.f83d6",
+                "bde54029.75ffd"
+            ]
+        ]
+    },
+    {
+        "id": "bde54029.75ffd",
+        "type": "pythonshell in",
+        "z": "86883d6d.252fc",
+        "name": "MPU6050",
+        "pyfile": "/home/pi/smarttshirt/mpu6050.py",
+        "virtualenv": "",
+        "continuous": true,
+        "stdInData": false,
+        "x": 300,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f87dd36e.f83d6",
+        "type": "pythonshell in",
+        "z": "86883d6d.252fc",
+        "name": "Internet",
+        "pyfile": "/home/pi/smarttshirt/internet.py",
+        "virtualenv": "",
+        "continuous": true,
+        "stdInData": false,
+        "x": 320,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27620cf.926c5f4",
+        "type": "link out",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "links": [
+            "7f813cde.b64bc4"
+        ],
+        "x": 895,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "9d05722.9de1f9",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "Insert in mySQL",
+        "func": "var s=msg.payload;\nif (s!==null){\nmsg.topic=\"INSERT INTO bpm (bpm,date) VALUES ('\"+msg.payload+\"',NOW());\";\nreturn msg;\n}\nelse{\n    return null\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 640,
+        "y": 160,
+        "wires": [
+            [
+                "92e40766.7becd8"
+            ]
+        ]
+    },
+    {
+        "id": "7f813cde.b64bc4",
+        "type": "link in",
+        "z": "51bdd7bf.fbeb38",
+        "name": "bpm db",
+        "links": [
+            "27620cf.926c5f4"
+        ],
+        "x": 415,
+        "y": 160,
+        "wires": [
+            [
+                "9d05722.9de1f9"
+            ]
+        ]
+    },
+    {
+        "id": "b346fbf8.50b428",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "data get",
+        "func": "msg.topic=\"SELECT * FROM step WHERE stamp BETWEEN \"+msg.payload.from+\" and \"+msg.payload.to+\";\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 520,
+        "y": 500,
+        "wires": [
+            [
+                "5f1fc8ce.d96358"
+            ]
+        ]
+    },
+    {
+        "id": "5f1fc8ce.d96358",
+        "type": "mysql",
+        "z": "51bdd7bf.fbeb38",
+        "mydb": "5bd84675.e7ffa8",
+        "name": "",
+        "x": 670,
+        "y": 500,
+        "wires": [
+            [
+                "eb2e9f63.74559",
+                "32aeb63f.702cba",
+                "1d549c3f.ade874",
+                "84e3fc7b.8371d"
+            ]
+        ]
+    },
+    {
+        "id": "4681bcd6.5bea04",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values ",
+        "func": "var length=msg.payload.length;\nvar values = new Array(length);\nfor (var i = 0; i <values.length; i++) {\n  values[i] = new Array(2);\n}\nfor (var j=0;j<msg.payload.length;j++){\nvalues[j][0]=msg.payload[j].stamp\nvalues[j][1]=msg.payload[j].step\nvalues[j][2]=msg.payload[j].distance\nvalues[j][3]=msg.payload[j].calories\n}\nmsg.payload=[{\n    \"series\": [\"step\", \"distance\", \"calories\" ],\n    \"data\": [[values[j][1]]] ,\n    \"labels\":[[values]]\n}]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 260,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ebeff381.87834",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values ",
+        "func": "\nmsg.payload=[{\n    \"series\": [\"X\", \"Y\", \"Z\" ],\n    \"data\": [ [5,6,9], [3,8,5], [6,7,2] ],\n    \"labels\": [ \"Jan\", \"Feb\", \"Mar\" ]\n}]\n\n// msg.payload=msg.payload[0].xaxis\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 400,
+        "y": 680,
+        "wires": [
+            [
+                "eb2e9f63.74559"
+            ]
+        ]
+    },
+    {
+        "id": "1b77e38f.c8904c",
+        "type": "inject",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 140,
+        "y": 680,
+        "wires": [
+            [
+                "ebeff381.87834"
+            ]
+        ]
+    },
+    {
+        "id": "32aeb63f.702cba",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values ",
+        "func": "var length=msg.payload.length;\nvar values = new Array(length);\nfor (var i = 0; i <values.length; i++) {\n  values[i] = new Array(2);\n}\nfor (var j=0;j<msg.payload.length;j++){\nvalues[j][0]=msg.payload[j].stamp\nvalues[j][1]=msg.payload[j].step\n}\nmsg.payload=[{\"key\":\"\",\"values\":values}]\nmsg.topic='step'\n// msg.payload=msg.payload[0].xaxis\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 500,
+        "wires": [
+            [
+                "1f107e80.8ada22"
+            ]
+        ]
+    },
+    {
+        "id": "1f107e80.8ada22",
+        "type": "ui_chart",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "group": "c92d978b.27baf8",
+        "order": 3,
+        "width": "10",
+        "height": "5",
+        "label": "STEPS",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "30",
+        "removeOlderPoints": "200000000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#cd6405",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1080,
+        "y": 500,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1d549c3f.ade874",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values ",
+        "func": "var length=msg.payload.length;\nvar values = new Array(length);\nfor (var i = 0; i <values.length; i++) {\n  values[i] = new Array(2);\n}\nfor (var j=0;j<msg.payload.length;j++){\nvalues[j][0]=msg.payload[j].stamp\nvalues[j][1]=msg.payload[j].distance\n}\nmsg.payload=[{\"key\":\"\",\"values\":values}]\nmsg.topic='distance'\n// msg.payload=msg.payload[0].xaxis\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 580,
+        "wires": [
+            [
+                "6839b1f2.77bf1"
+            ]
+        ]
+    },
+    {
+        "id": "6839b1f2.77bf1",
+        "type": "ui_chart",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "group": "c92d978b.27baf8",
+        "order": 4,
+        "width": "10",
+        "height": "5",
+        "label": "Distance",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "30",
+        "removeOlderPoints": "200000000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#cd6405",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1080,
+        "y": 580,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "76130dad.d87694",
+        "type": "ui_chart",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "group": "c92d978b.27baf8",
+        "order": 5,
+        "width": "7",
+        "height": "4",
+        "label": "Calories",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "30",
+        "removeOlderPoints": "200000000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#2133b1",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1080,
+        "y": 640,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "84e3fc7b.8371d",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values ",
+        "func": "var length=msg.payload.length;\nvar values = new Array(length);\nfor (var i = 0; i <values.length; i++) {\n  values[i] = new Array(2);\n}\nfor (var j=0;j<msg.payload.length;j++){\nvalues[j][0]=msg.payload[j].stamp\nvalues[j][1]=msg.payload[j].calories\n}\nmsg.payload=[{\"key\":\"\",\"values\":values}]\nmsg.topic='calories'\n// msg.payload=msg.payload[0].xaxis\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 640,
+        "wires": [
+            [
+                "76130dad.d87694"
+            ]
+        ]
+    },
+    {
+        "id": "75404e60.597cc",
+        "type": "mysql",
+        "z": "51bdd7bf.fbeb38",
+        "mydb": "5bd84675.e7ffa8",
+        "name": "",
+        "x": 670,
+        "y": 580,
+        "wires": [
+            [
+                "7550d92e.079c08"
+            ]
+        ]
+    },
+    {
+        "id": "35d0158c.1f52aa",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "data get",
+        "func": "msg.topic=\"SELECT * FROM bpm WHERE date BETWEEN \"+msg.payload.from+\" and \"+msg.payload.to+\";\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 520,
+        "y": 580,
+        "wires": [
+            [
+                "75404e60.597cc"
+            ]
+        ]
+    },
+    {
+        "id": "e8858c73.3bbc1",
+        "type": "ui_chart",
+        "z": "51bdd7bf.fbeb38",
+        "name": "",
+        "group": "c92d978b.27baf8",
+        "order": 5,
+        "width": "7",
+        "height": "4",
+        "label": "BPM",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "30",
+        "removeOlderPoints": "200000000",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#44518e",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1070,
+        "y": 700,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7550d92e.079c08",
+        "type": "function",
+        "z": "51bdd7bf.fbeb38",
+        "name": "spliting values ",
+        "func": "var length=msg.payload.length;\nvar values = new Array(length);\nfor (var i = 0; i <values.length; i++) {\n  values[i] = new Array(2);\n}\nfor (var j=0;j<msg.payload.length;j++){\nvalues[j][0]=msg.payload[j].date\nvalues[j][1]=msg.payload[j].bpm\n}\nmsg.payload=[{\"key\":\"\",\"values\":values}]\nmsg.topic='BPM'\n// msg.payload=msg.payload[0].xaxis\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 700,
+        "wires": [
+            [
+                "e8858c73.3bbc1"
+            ]
+        ]
+    },
+    {
+        "id": "55c0243.fa08adc",
+        "type": "ui_template",
+        "z": "86883d6d.252fc",
+        "group": "bd812988.48bc78",
+        "name": "message",
+        "order": 1,
+        "width": "8",
+        "height": "4",
+        "format": "\n\n<b><h style=\"color:red;text-decoration: underline;\">Description </h></b>\nTo implement the automation in the field of medicine and to minimize the Physical supervision of a Doctor. We are presenting a Smart T-shirt which monitors the health parameters of a child 24 hours, this system is connected to a Private server, it consists of several sensors to measure the physical parameters i.e., Temperature sensors, Pulse-oximetry sensor, Accelerometer sensor, Gyroscope sensor. As this is a smart T-shirt, an Android app is connected to the smart T-shirt, with that app we can check the analyzed report and Monitor the live parameter. In addition, this T-shirt includes a spy camera to check the child activity through the live stream over the Internet. The Proposed system is programmed to automatically give a warning alert to the connected users in case of any abnormal health condition through telegram application. i.e., heat strokes, cold strokes, low pulse or any kind of physical injuries, this data is sent to the app over the internet, the warning alert will be sent over telegram Messenger app. \n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 500,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8300c8d0.7fba78",
+        "type": "ui_template",
+        "z": "51bdd7bf.fbeb38",
+        "group": "d50a0086.c2b34",
+        "name": "Clock Toolbar",
+        "order": 4,
+        "width": "1",
+        "height": "1",
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    $('#titleScript').parent().hide();\n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleTimeString('de-AT'));\n    }\n\n    \n\n    // Watch the payload and update the title\n    (function(scope) {\n        scope.$watch('msg.payload', function(data) {\n            displayTitle(data);\n        });\n        setInterval(upTime,1000);\n    })(scope);\n</script>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 1160,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d60e4d.1a9ac1c",
+        "type": "pythonshell in",
+        "z": "86883d6d.252fc",
+        "name": "internet check",
+        "pyfile": "/home/pi/internet.py",
+        "virtualenv": "",
+        "continuous": false,
+        "stdInData": false,
+        "x": 220,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d011cf01.8d19d",
+        "type": "file",
+        "z": "86883d6d.252fc",
+        "name": "wifi",
+        "filename": "smarttshirt/wifisetting.txt",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "x": 390,
+        "y": 860,
+        "wires": [
+            [
+                "c816ad17.f1d8e",
+                "72cae16f.920a5"
+            ]
+        ]
+    },
+    {
+        "id": "5f70ee6e.fdc7d",
+        "type": "inject",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 860,
+        "wires": [
+            [
+                "d011cf01.8d19d"
+            ]
+        ]
+    },
+    {
+        "id": "de2be284.24012",
+        "type": "ui_form",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "label": "Setup your WIFI",
+        "group": "78ac4f81.739f3",
+        "order": 1,
+        "width": "7",
+        "height": "6",
+        "options": [
+            {
+                "label": "SSID",
+                "value": "Enter the Wifi's Name",
+                "type": "text",
+                "required": true
+            },
+            {
+                "label": "Password",
+                "value": "Enter the Wifi's Password",
+                "type": "password",
+                "required": false
+            }
+        ],
+        "formValue": {
+            "Enter the Wifi's Name": "",
+            "Enter the Wifi's Password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 100,
+        "y": 960,
+        "wires": [
+            [
+                "78b86ec8.cbd1c"
+            ]
+        ]
+    },
+    {
+        "id": "4b06c408.12037c",
+        "type": "debug",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 570,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "78b86ec8.cbd1c",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "func": "ssid=msg.payload[\"Enter the Wifi's Name\"]\nkey=msg.payload[\"Enter the Wifi's Password\"]\nmsg.payload=ssid+\":;:\"+key;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 960,
+        "wires": [
+            [
+                "4b06c408.12037c",
+                "d011cf01.8d19d"
+            ]
+        ]
+    },
+    {
+        "id": "72cae16f.920a5",
+        "type": "delay",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "pauseType": "queue",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "x": 570,
+        "y": 800,
+        "wires": [
+            [
+                "c5025b0a.cd51e8",
+                "7b952c3f.339d84"
+            ]
+        ]
+    },
+    {
+        "id": "c5025b0a.cd51e8",
+        "type": "pythonshell in",
+        "z": "86883d6d.252fc",
+        "name": "wifi to wpa_supplicant",
+        "pyfile": "/home/pi/smarttshirt/wifi_wpa.py",
+        "virtualenv": "",
+        "continuous": false,
+        "stdInData": false,
+        "x": 700,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c816ad17.f1d8e",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "func": "\nmsg.payload=\"Uploading Your Settings...\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 530,
+        "y": 760,
+        "wires": [
+            [
+                "83601c1c.4b326"
+            ]
+        ]
+    },
+    {
+        "id": "7b952c3f.339d84",
+        "type": "function",
+        "z": "86883d6d.252fc",
+        "name": "",
+        "func": "msg.payload=\"Rebooting Please Connect your Device to the Current Network\"\nreturn msg;}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 800,
+        "wires": [
+            [
+                "83601c1c.4b326"
+            ]
+        ]
+    },
+    {
+        "id": "d0d010c6.6f1a4",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "3c896285.f3cc7e",
+        "order": 1,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "SHUTDOWN",
+        "tooltip": "To Shutdown You T shirt",
+        "color": "",
+        "bgcolor": "light blue",
+        "icon": "",
+        "payload": "Do You Really Want to Shutdown",
+        "payloadType": "str",
+        "topic": "Attention",
+        "x": 90,
+        "y": 340,
+        "wires": [
+            [
+                "968688e4.5f3c58"
+            ]
+        ]
+    },
+    {
+        "id": "668d4f98.f6539",
+        "type": "ui_button",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "3c896285.f3cc7e",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "label": "RESTART",
+        "tooltip": "To Reboot Your T Shirt",
+        "color": "",
+        "bgcolor": "RED",
+        "icon": "",
+        "payload": "Do You Really want to Reboot",
+        "payloadType": "str",
+        "topic": "Attention",
+        "x": 90,
+        "y": 380,
+        "wires": [
+            [
+                "2f67d517.7bdd8a"
+            ]
+        ]
+    },
+    {
+        "id": "2f67d517.7bdd8a",
+        "type": "ui_toast",
+        "z": "24ba06c7.4798ca",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "outputs": 1,
+        "ok": "YES",
+        "cancel": "NO",
+        "topic": "",
+        "name": "confirmation",
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "ad6f0e01.cf2b8"
+            ]
+        ]
+    },
+    {
+        "id": "ad6f0e01.cf2b8",
+        "type": "switch",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "YES",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "cancel",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": true,
+        "outputs": 2,
+        "x": 430,
+        "y": 380,
+        "wires": [
+            [
+                "3db1a443.2da55c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "968688e4.5f3c58",
+        "type": "ui_toast",
+        "z": "24ba06c7.4798ca",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "outputs": 1,
+        "ok": "YES",
+        "cancel": "NO",
+        "topic": "",
+        "name": "confirmation",
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "906f0653.0698d8"
+            ]
+        ]
+    },
+    {
+        "id": "1ffc8b60.b87835",
+        "type": "exec",
+        "z": "24ba06c7.4798ca",
+        "command": "sudo halt",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 720,
+        "y": 260,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "906f0653.0698d8",
+        "type": "switch",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "YES",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "cancel",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": true,
+        "outputs": 2,
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "e7edb7c2.208688"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3db1a443.2da55c",
+        "type": "function",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "func": "msg.topic='Rebooting Your T Shirt'\nmsg.payload='Please Wait Until it loads'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 550,
+        "y": 380,
+        "wires": [
+            [
+                "6ec2c1d8.6c326",
+                "b5489a8e.849cc8"
+            ]
+        ]
+    },
+    {
+        "id": "e7edb7c2.208688",
+        "type": "function",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "func": "msg.topic=\"Turning Off Your T Shirt\";\nmsg.payload='Please unplug and replug the USB to TURN ON'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 550,
+        "y": 300,
+        "wires": [
+            [
+                "6ec2c1d8.6c326",
+                "1ffc8b60.b87835"
+            ]
+        ]
+    },
+    {
+        "id": "6ec2c1d8.6c326",
+        "type": "ui_toast",
+        "z": "24ba06c7.4798ca",
+        "position": "top right",
+        "displayTime": "5",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "YES",
+        "cancel": "NO",
+        "topic": "",
+        "name": "",
+        "x": 780,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "83601c1c.4b326",
+        "type": "ui_toast",
+        "z": "86883d6d.252fc",
+        "position": "top right",
+        "displayTime": "2",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "YES",
+        "cancel": "NO",
+        "topic": "",
+        "name": "",
+        "x": 820,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "3c8e122c.0eb67e",
+        "type": "telegram command",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "command": "/id",
+        "bot": "199a8581.0699ba",
+        "strict": false,
+        "x": 90,
+        "y": 300,
+        "wires": [
+            [
+                "e8ebbeaf.2837f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3c50fc81.eb8554",
+        "type": "function",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "sendfuntion",
+        "func": "\nsan.payload.chat=msg.payload;\nreturn san",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "8294b138.8970a"
+            ]
+        ]
+    },
+    {
+        "id": "4fb9d702.a7eeb8",
+        "type": "debug",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 750,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b5cd50fb.1bf5f",
+        "type": "inject",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "topic": "",
+        "payload": "15889787",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 120,
+        "y": 580,
+        "wires": [
+            [
+                "3c50fc81.eb8554"
+            ]
+        ]
+    },
+    {
+        "id": "1c8672f7.020a6d",
+        "type": "file in",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "id",
+        "filename": "/home/pi/smarttshirt/telegramid.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 110,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8294b138.8970a",
+        "type": "join",
+        "z": "13a4ddd1.5f0bc2",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "4fb9d702.a7eeb8"
+            ]
+        ]
+    },
+    {
+        "id": "263ee538.ec275a",
+        "type": "ui_audio",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "group": "83a19465.5b74e8",
+        "voice": "en-US",
+        "always": true,
+        "x": 320,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b1760131.a00aa",
+        "type": "inject",
+        "z": "24ba06c7.4798ca",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "263ee538.ec275a"
+            ]
+        ]
+    }
+]
